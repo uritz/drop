@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+h2 {
+    color: #122127;
+    font-family: Montserrat Bold;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -0.36px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #41BEA6;
+    text-decoration: none;
+}
+
+.section {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.section-separator {
+    height: 3px;
+    width: 100%;
+    background-color: #E6E8EB;
+    border-width: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.prop {
+    width: 290px;
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.prop-title {
+    color: #395272;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    padding: 5px;
+}
+
+.prop-value {
+    color: #122127;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    padding: 5px;
+}
+
+.main-logo {
+    max-width: 200px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#page-header {
+    background-color: #F0F3F7;
+    padding: 40px;
+}
+
+#header-logo {}
+
+#header-title {
+    margin-top: 30px;
+    color: #41BEA6;
+    font-family: Montserrat ExtraBold;
+    font-size: 50px;
+    letter-spacing: -0.63px;
+}
+
+#header-sub-title {
+    margin-top: 30px;
+    color: #0F2345;
+    font-size: 17px;
+    letter-spacing: -0.22px;
+}
+
+#header-project-selector {
+    margin-top: 30px;
+}
+
+#repos-select {}
+
+.select2-container,
+.select2-selection,
+.select2-selection__rendered,
+.select2-repos-select-container {
+    line-height: 48px !important;
+    width: 360px !important;
+    text-align: left;
+}
+
+.select2-selection--single {
+    margin-top: -5px !important;
+}
+
+.select2-selection__arrow {
+    font-size: 15px;
+    line-height: 48px !important;
+    margin-top: 8px;
+}
+
+.select2-selection {
+    box-sizing: border-box !important;
+    height: 48px !important;
+    width: 360px !important;
+    border: 2px solid #0F2345 !important;
+    border-radius: 3px !important;
+    background-color: #F8F9FA !important;
+    font-size: 20px;
+}
+
+#project {
+    background-color: white;
+    padding: 40px;
+}
+
+#page-footer {
+    background-color: #0F2345;
+    padding: 20px;
+}
+
+#repo-seaerch {
+    height: 48px;
+    width: 160px;
+    border-radius: 3px;
+    background-color: #A172FF;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-width: 0px;
+}
+
+#contact-us {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    color: #395272;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+#copyright {
+    float: right;
+    color: #FFFFFF;
+    font-size: 16px;
+}
